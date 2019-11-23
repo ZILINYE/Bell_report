@@ -7,7 +7,7 @@ from Data_process import initialize
 import time
 import glob
 from Data_analysis import import_db
-
+#test
 
 def main():
     # select mode (Regular  or Specific)
