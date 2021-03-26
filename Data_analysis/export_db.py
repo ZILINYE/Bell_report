@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import pandas as pd
 
 def export_db():
-    engine = create_engine("mysql://kkkye201_zilinye:YZLMM52476@108.167.156.159/kkkye201_python")
+    engine = create_engine("<MySql Address >")
     con = engine.connect()
     data = pd.read_sql("SELECT * FROM phone_report",con)
     list1 = ['RH','CC','MK','NY','UV','SC','DT']
