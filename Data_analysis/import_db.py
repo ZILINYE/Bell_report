@@ -5,7 +5,7 @@ pymysql.install_as_MySQLdb()
 import MySQLdb
 def import_db(df,date_time):
 
-    engine = create_engine("mysql://kkkye201_zilinye:YZLMM52476@108.167.156.159/kkkye201_python")
+    engine = create_engine("<Mysql Server address>")
     con = engine.connect()
     df= df.droplevel(level=1)
     df['Branch'] = df.index
